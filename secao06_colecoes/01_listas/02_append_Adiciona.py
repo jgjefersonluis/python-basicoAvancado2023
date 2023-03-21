@@ -1,0 +1,27 @@
+# declaração de 01_listas:
+lista1 = []
+lista2 = [1, 2, 3, 3, 4, 5, 8, 8, 10]
+lista3 = [3.4, 23.42, 532.12]
+lista4 = [True, False, True, True]
+lista5 = ['tatu', 'roxo', 'a']
+lista6 = list('Silvio Santos 1898')
+lista7 = [43, True, 23.1, 'abacate', 'Russia', 12, 'x', False, [1, 3, 5, 7]]
+
+# declaração de 01_listas:
+cor = 'azul'
+animal = 'pavão'
+numero = 42
+lista8 = [cor, animal, numero]
+
+# Adicionar valores em uma lista - Append: Adiciona apenas 1 elementos por vez
+# Obs.: Adiciona o objeto
+print(lista2)
+lista2.append(6)
+print(lista2)
+
+lista2.append(10)
+lista2.append('Maria Joaquina')
+lista2.append('Molho de alho')
+lista2.append(True)
+lista2.append([2, 4, 6, 8])
+print(lista2)
